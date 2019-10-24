@@ -1,0 +1,11 @@
+C:\Users\m.prekas\CvEv5\src\CvEv5\obj\Debug\netcoreapp3.0\CvEv5.csprojAssemblyReference.cache
+C:\Users\m.prekas\CvEv5\src\CvEv5\obj\Debug\netcoreapp3.0\CvEv5.AssemblyInfoInputs.cache
+C:\Users\m.prekas\CvEv5\src\CvEv5\obj\Debug\netcoreapp3.0\CvEv5.AssemblyInfo.cs
+C:\Users\m.prekas\CvEv5\src\CvEv5\bin\Debug\netcoreapp3.0\CvEv5.exe
+C:\Users\m.prekas\CvEv5\src\CvEv5\bin\Debug\netcoreapp3.0\CvEv5.deps.json
+C:\Users\m.prekas\CvEv5\src\CvEv5\bin\Debug\netcoreapp3.0\CvEv5.runtimeconfig.json
+C:\Users\m.prekas\CvEv5\src\CvEv5\bin\Debug\netcoreapp3.0\CvEv5.runtimeconfig.dev.json
+C:\Users\m.prekas\CvEv5\src\CvEv5\bin\Debug\netcoreapp3.0\CvEv5.dll
+C:\Users\m.prekas\CvEv5\src\CvEv5\bin\Debug\netcoreapp3.0\CvEv5.pdb
+C:\Users\m.prekas\CvEv5\src\CvEv5\obj\Debug\netcoreapp3.0\CvEv5.dll
+C:\Users\m.prekas\CvEv5\src\CvEv5\obj\Debug\netcoreapp3.0\CvEv5.pdb
