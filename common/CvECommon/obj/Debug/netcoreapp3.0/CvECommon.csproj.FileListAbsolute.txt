@@ -1,0 +1,8 @@
+C:\Users\m.prekas\CvEv5\common\CvECommon\bin\Debug\netcoreapp3.0\CvECommon.deps.json
+C:\Users\m.prekas\CvEv5\common\CvECommon\bin\Debug\netcoreapp3.0\CvECommon.dll
+C:\Users\m.prekas\CvEv5\common\CvECommon\bin\Debug\netcoreapp3.0\CvECommon.pdb
+C:\Users\m.prekas\CvEv5\common\CvECommon\obj\Debug\netcoreapp3.0\CvECommon.csprojAssemblyReference.cache
+C:\Users\m.prekas\CvEv5\common\CvECommon\obj\Debug\netcoreapp3.0\CvECommon.AssemblyInfoInputs.cache
+C:\Users\m.prekas\CvEv5\common\CvECommon\obj\Debug\netcoreapp3.0\CvECommon.AssemblyInfo.cs
+C:\Users\m.prekas\CvEv5\common\CvECommon\obj\Debug\netcoreapp3.0\CvECommon.dll
+C:\Users\m.prekas\CvEv5\common\CvECommon\obj\Debug\netcoreapp3.0\CvECommon.pdb

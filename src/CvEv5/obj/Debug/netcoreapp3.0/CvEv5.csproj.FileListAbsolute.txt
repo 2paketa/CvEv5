@@ -9,3 +9,6 @@ C:\Users\m.prekas\CvEv5\src\CvEv5\bin\Debug\netcoreapp3.0\CvEv5.dll
 C:\Users\m.prekas\CvEv5\src\CvEv5\bin\Debug\netcoreapp3.0\CvEv5.pdb
 C:\Users\m.prekas\CvEv5\src\CvEv5\obj\Debug\netcoreapp3.0\CvEv5.dll
 C:\Users\m.prekas\CvEv5\src\CvEv5\obj\Debug\netcoreapp3.0\CvEv5.pdb
+C:\Users\m.prekas\CvEv5\src\CvEv5\bin\Debug\netcoreapp3.0\CvECommon.dll
+C:\Users\m.prekas\CvEv5\src\CvEv5\bin\Debug\netcoreapp3.0\CvECommon.pdb
+C:\Users\m.prekas\CvEv5\src\CvEv5\obj\Debug\netcoreapp3.0\CvEv5.csproj.CopyComplete

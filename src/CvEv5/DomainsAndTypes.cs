@@ -1,30 +1,15 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace CvEv5
 {
     public class DomainsAndTypes
     {
-        static string[] legal = {"Contract", "Bylaws", "Regulations"};
-        static string[] medical = {"SPCs", "PILs", "Clinical trials"};
-        static string[] marketing = {"Brochures", "campaigns"};
-
-        static Dictionary<string, string[]> docsDict;
 
         private DomainsAndTypes()
         {
-            docsDict = new Dictionary<string, string[]>
-            {
-                {"legal", legal },
-                {"medical", medical},
-                {"marketing", marketing}
-            };
-        }
-
-        public string[] getDomainDocs(string domain)
-        {
-            return docsDict[domain];
         }
 
         private static DomainsAndTypes Instance = null;
@@ -36,6 +21,22 @@ namespace CvEv5
                 Instance = new DomainsAndTypes();
             }
             return Instance;
+        }
+
+        public string[] getDocs(string domain)
+        {
+            var path = @"C:\Users\m.prekas\CvEv5\Data\Library.csv";
+            StreamReader sr = new StreamReader(path);
+            string[] docs;
+            using (sr)
+            {
+                while(sr.ReadLine() != domain)
+                {
+                    sr.ReadLine();
+                }
+                docs = sr.ReadLine().ToString().Split(", ");
+            }
+            return docs;
         }
     }
 }

@@ -1,36 +1,53 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using CvECommon;
 
 namespace CvEv5
 {
-    class MainBody
+    public class MainBody
     {
         string title;
         string domains;
         string yearsOfExperience;
         private DomainsAndTypes domainsAndTypes;
-        Random random;
+        Random rng;
         public MainBody()
         {
-            random = new Random();
             domainsAndTypes = DomainsAndTypes.getInstance();
-        }
-
-        private void getDomainText(string domain)
-        {
-            string[] docs = domainsAndTypes.getDomainDocs(domain);
-            var fulltext = domain;
-            for (int i = 0; i < docs.Length; i++)
-            {
-                var randomNumber = random.Next(docs.Length);
-                if (docs[randomNumber] != null)
-                {
-                    string randomDoc = docs[randomNumber];
-                    docs[randomNumber] = null;
-                }
-            }
+            rng = new Random();
         }
         
+        public string getDomainText(string domain)
+        {
+            var fulltext = domain;
+            var randomDocs = domainsAndTypes.getDocs(domain);
+            rng.Shuffle(randomDocs);
+            for (int i = 0; i < randomDocs.Length; i++)
+            {
+                if (i == 0)
+                    fulltext += $"({randomDocs[i]}";
+                else 
+                    fulltext += $", {randomDocs[i]}";
+            }
+            fulltext += ")\n";
+            return fulltext;
+        }
+        
+
+        public string getDomains(string[] domains)
+        {
+            string finalText = "";
+            rng.Shuffle(domains);
+            for (int i = 0; i < domains.Length; i++)
+            {
+                finalText += getDomainText(domains[i]);
+            }
+            return finalText;
+        }
+
+
+
     }
 }

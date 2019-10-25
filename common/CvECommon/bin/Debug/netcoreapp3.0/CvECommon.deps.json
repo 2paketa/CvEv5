@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "CvEv5/1.0.0": {
-        "dependencies": {
-          "CvECommon": "1.0.0"
-        },
-        "runtime": {
-          "CvEv5.dll": {}
-        }
-      },
       "CvECommon/1.0.0": {
         "runtime": {
           "CvECommon.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "CvEv5/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "CvECommon/1.0.0": {
       "type": "project",
       "serviceable": false,
