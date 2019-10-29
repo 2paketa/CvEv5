@@ -31,7 +31,7 @@ namespace CvEv5
                 else 
                     fulltext += $", {randomDocs[i]}";
             }
-            fulltext += ")\n";
+            fulltext += ")";
             return fulltext;
         }
         
@@ -39,11 +39,18 @@ namespace CvEv5
         public string getDomains(string[] domains)
         {
             string finalText = "";
-            rng.Shuffle(domains);
             for (int i = 0; i < domains.Length; i++)
             {
-                finalText += getDomainText(domains[i]);
+                if (i == 0)
+                {
+                     finalText += getDomainText(domains[i]);
+                }
+                else
+                {
+                    finalText += $",  {getDomainText(domains[i])}";
+                }
             }
+            
             return finalText;
         }
 

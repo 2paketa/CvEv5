@@ -25,9 +25,9 @@ namespace CvEv5
 
         public string[] getDocs(string domain)
         {
-            var path = @"C:\Users\m.prekas\CvEv5\Data\Library.csv";
-            StreamReader sr = new StreamReader(path);
-            string[] docs;
+            var sourcePath = @"C:\Users\m.prekas\CvEv5\Data\Library.csv";
+            StreamReader sr = new StreamReader(sourcePath);
+            string[] docs = null;
             using (sr)
             {
                 while(sr.ReadLine() != domain)

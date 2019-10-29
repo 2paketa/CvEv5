@@ -1,0 +1,11 @@
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\bin\Debug\netcoreapp3.0\CVEWinForms.exe
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\bin\Debug\netcoreapp3.0\CVEWinForms.deps.json
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\bin\Debug\netcoreapp3.0\CVEWinForms.runtimeconfig.json
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\bin\Debug\netcoreapp3.0\CVEWinForms.runtimeconfig.dev.json
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\bin\Debug\netcoreapp3.0\CVEWinForms.dll
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\bin\Debug\netcoreapp3.0\CVEWinForms.pdb
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\obj\Debug\netcoreapp3.0\CVEWinForms.csprojAssemblyReference.cache
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\obj\Debug\netcoreapp3.0\CVEWinForms.AssemblyInfoInputs.cache
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\obj\Debug\netcoreapp3.0\CVEWinForms.AssemblyInfo.cs
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\obj\Debug\netcoreapp3.0\CVEWinForms.dll
+C:\Users\m.prekas\CvEv5\src\CVEWinForms\obj\Debug\netcoreapp3.0\CVEWinForms.pdb

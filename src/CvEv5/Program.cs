@@ -15,7 +15,17 @@ namespace CvEv5
             var input = Console.ReadLine();
             Console.WriteLine("");
             var domains = input.ToString().Split(", ");
-            Console.WriteLine(mainbody.getDomains(domains));
+
+            
+            var targetPath = @"C:\Users\m.prekas\CvEv5\Test.csv";
+            StreamWriter sw = new StreamWriter(targetPath);
+
+
+            using (sw)
+            {
+                sw.Write(mainbody.getDomains(domains));
+            }
+            // Console.WriteLine(mainbody.getDomains(domains));
         }
     }
 }
